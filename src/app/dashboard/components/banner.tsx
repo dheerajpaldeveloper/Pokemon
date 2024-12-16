@@ -9,17 +9,18 @@ export default function Banner() {
         <div className="bg-white rounded-lg shadow-xl shadow-slate-700 overflow-hidden">
           {/* Image with Overlay Text */}
           <div className="relative">
-            <img
-              src="/image2.jpg"
-              alt="Banner 1"
-              className="w-full h-48 sm:h-44 object-cover"
-            />
-            <div className="absolute top-0 left-0 right-0 bottom-0 bg-black bg-opacity-50 flex flex-col justify-center items-end p-4">
+          <div className="absolute top-0 left-0 right-0 bottom-0 bg-black bg-opacity-50 flex flex-col justify-center items-end p-4">
               {/* Text aligned to the left and stacked vertically */}
               <span className="text-white text-xl sm:text-xl ">The Adventure</span>
               <span className="text-white text-lg sm:text-xl">of blue </span>
               <span className="text-white text-lg sm:text-xl">Sword </span>
             </div>
+            <img
+              src="/image2.jpg"
+              alt="Banner 1"
+              className="w-full h-48 sm:h-44 object-cover"
+            />
+           
 
             {/* Play Button & Text */}
             <div className="absolute bottom-4 left-4 flex items-center space-x-2 z-10">

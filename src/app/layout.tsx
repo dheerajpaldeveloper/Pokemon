@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className="bg-custom-bg"
+        className="bg-custom-bg bg-[url('/pokemon5.jpg')] bg-cover"
       >
         {children}
       </body>
